@@ -131,7 +131,7 @@
             Font = new Font("Segoe UI", 12F);
             Margin = new Padding(4);
             Name = "Form1";
-            Text = "WinForm.StringMethod";
+            Text = "แยกชื่อ";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -61,7 +61,7 @@ namespace WinFormsm.StringMethod
 
         private void button1_Click(object sender, EventArgs e)
         {
-        
+            
             int[] numbers = textBox1.Lines.Select(line => int.TryParse(line, out var result) ? result : 0).ToArray();
             SortAscending(numbers);
             

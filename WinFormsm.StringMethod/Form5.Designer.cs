@@ -36,21 +36,21 @@
             // 
             // button1
             // 
-            button1.Location = new Point(334, 106);
+            button1.Location = new Point(314, 103);
             button1.Name = "button1";
-            button1.Size = new Size(94, 76);
+            button1.Size = new Size(153, 76);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "เรียงจากน้อยไปมาก";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(334, 219);
+            button2.Location = new Point(314, 219);
             button2.Name = "button2";
-            button2.Size = new Size(94, 76);
+            button2.Size = new Size(153, 76);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "เรียงจากมากไปน้อย";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -69,7 +69,7 @@
             label1.Name = "label1";
             label1.Size = new Size(272, 423);
             label1.TabIndex = 3;
-            label1.Text = "label1";
+            label1.Text = "...";
             label1.Click += label1_Click;
             // 
             // Form5
@@ -82,7 +82,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form5";
-            Text = "Form5";
+            Text = "เรียงลำดับ";
             ResumeLayout(false);
             PerformLayout();
         }

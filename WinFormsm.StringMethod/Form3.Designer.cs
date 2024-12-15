@@ -101,7 +101,7 @@
             Controls.Add(txt_in_int);
             Controls.Add(btn1);
             Name = "Form3";
-            Text = "Form3";
+            Text = "วาดรูป";
             Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
